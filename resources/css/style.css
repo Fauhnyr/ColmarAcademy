@@ -1,13 +1,14 @@
 * {
-    font-family: Helvetica;
-    text-align: center;
+    font-family:sans-serif;
+    text-align: justify;
     box-sizing: border-box;
     margin:0;
     padding:0;
+    flex-shrink: 3;
     
 
 }
-
+/* after general */
 nav {
     display: flex;
     flex-wrap:wrap;
@@ -34,7 +35,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    font-size: 1.75rem;
+    font-size: 1.5vw;
     margin-right: 24px;
     align-items: center;
 }
@@ -44,4 +45,160 @@ ul li{
 ul a{
     color:rgba(0, 0, 0, 0.795);
     text-decoration:none;
+}
+/*after header */
+.second{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    justify-items: center;
+    align-items: center;
+    background-color: lightgray;
+    
+}
+.happy {
+    width: 60%;
+    height: auto;
+    padding: 32px 24px;
+    margin-right: 24px;
+}
+.second div{
+    margin-left: 0px;
+    color:rgba(0, 0, 0, 0.664);
+    
+    
+}
+.second h1{
+    font-size: 3.5vw;
+    font-weight:bold;
+    margin-bottom: 3rem;
+    
+    
+}
+.second p {
+    font-size: 2vw;
+    text-align: justify;
+    font-weight: bold;
+    margin-bottom: 3rem;
+
+}
+.second h5 {
+    background-color: darkslategrey;
+    border-color:darkslategrey;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+
+}
+.second a {
+    text-decoration: none;
+    color: white;
+}
+/* third nav with 3 pictures */
+.third {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items:flex-start;
+    padding-top: 2rem;
+
+
+}
+.sixty {
+    width: 60%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.sixty img {
+    width: 100%;
+     
+}
+.sixty h1 {
+    font-size: 3vw;
+    font-weight:bold;
+    text-align:justify;
+    color:rgba(0, 0, 0, 0.664);
+}
+.sixty p{
+    text-align: justify;
+    font-size: 1.5vw;
+    padding-top: 1.5rem;
+    color:rgba(0, 0, 0, 0.664);
+    
+
+}
+.author {
+    padding-bottom: 2rem;
+}
+.forty {
+    border-left: 1px solid lightgrey;
+    width: 40%;
+    
+}
+.everyone {
+    display: flex;
+    justify-content:flex-start;
+    justify-items: center;
+    align-items: center;
+    padding-left: 1rem;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 1px;
+}
+.everyone1 {
+    display: flex;
+    justify-content:flex-start;
+    justify-items: center;
+    align-items: center;
+    padding-left: 1rem;
+    border-top: 1px solid lightgrey;
+
+}
+.everyones {
+    display: flex;
+    justify-content:flex-start;
+    justify-items: center;
+    align-items: center;
+    padding-left: 1rem;
+    background-color: lightgray;
+}
+.timage {
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+    padding-right:0;
+    
+    
+
+}
+.everyone div{
+    width: 65%;
+    padding-left: 1rem;
+}
+.everyone1 div{
+    width: 65%;
+    padding-left: 1rem;
+}
+.everyones div {
+    width: 65%;
+    padding-left: 1rem;
+}
+.bigt {
+    font-size: 2.5vw;
+    
+    font-weight:bold;
+    color:rgba(0, 0, 0, 0.664);
+}
+.mediumt {
+    padding-top: 0.5rem;
+    font-size: 1.5vw;
+    color:rgba(0, 0, 0, 0.664);
+}
+
+.linkt {
+    padding-top: 0.5rem;
+}
+.linkt a {
+    text-decoration: none;
 }
