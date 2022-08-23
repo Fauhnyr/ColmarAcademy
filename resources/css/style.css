@@ -1,7 +1,7 @@
 * {
     font-family:sans-serif;
     text-align: justify;
-    box-sizing: border-box;
+    box-sizing:border-box;
     margin:0;
     padding:0;
     flex-shrink: 3;
@@ -15,8 +15,8 @@ nav {
     justify-content:space-between;
     justify-items: center;
     align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .logo {
     display: flex;
@@ -54,6 +54,8 @@ ul a{
     justify-items: center;
     align-items: center;
     background-color: lightgray;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
     
 }
 .happy {
@@ -103,6 +105,9 @@ ul a{
     justify-items: center;
     align-items:flex-start;
     padding-top: 2rem;
+    background-color:rgb(241, 241, 241);
+    border-left: 10px solid white;
+    border-right: 10px solid white;
 
 
 }
@@ -210,14 +215,14 @@ ul a{
     flex-flow:column;
     background-color: rgb(211, 211, 211);
     width:100%;
-}
-.fourth {
     font-size: 3.5vw;
     font-weight:bold;
     text-align: center;
     color:rgba(0, 0, 0, 0.664);
     padding-top: 2rem;
     padding-bottom: 2rem;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
 }
 .columns{
     display: flex;
@@ -259,9 +264,10 @@ ul a{
     background-color:white;
     padding-top:1rem; 
     margin-top:0;
-    font-size: 2.5vw;
+    font-size: 2.25vw;
     font-weight:bold;
     color:rgba(0, 0, 0, 0.664);
+    padding-left:1rem;
 
 }
 .courses{
@@ -272,4 +278,75 @@ ul a{
 
     padding-top:0.5rem;
     padding-bottom:0.5rem;
+    padding-left: 1rem;
+}
+.fifth {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-flow:column;
+    background-color:rgb(241, 241, 241);
+    width:100%;
+    font-size: 3.5vw;
+    font-weight:bold;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.664);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+}
+
+.whole{
+    display: flex;
+    justify-content:flex-start;
+    justify-items: center;
+    align-items:flex-start;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    border-bottom: 1 solid grey;
+}
+.vidbox{
+    width: 60%;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+}
+.vidbox video{
+    width:100%;
+    border: 1px solid lightgrey;
+}
+.latin{
+    text-align:left;
+    font-size: 1.4vw;
+    padding-top: 1.5rem;
+    color:rgba(0, 0, 0, 0.664);
+    font-weight:100;
+}
+.vidbox h2{
+    font-size: 2.5vw;
+}
+.forty1 {
+    width: 40%;
+}
+.big {
+font-size: 2vw;
+}
+.medium{
+padding-top: 0.5rem;
+font-size: 1.3vw;
+color:rgba(0, 0, 0, 0.664);
+
+}
+footer {
+padding-left: 1.5rem;
+padding-top: 1rem;
+display:flex;
+justify-content:space-between;
+justify-items: center;
+align-items: center;
+padding-bottom: 3rem;
+}
+footer p {
+    color:rgba(0, 0, 0, 0.795);
+    font-size: 1.5vw;
 }
