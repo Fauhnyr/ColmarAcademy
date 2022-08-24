@@ -5,6 +5,8 @@
     margin:0;
     padding:0;
     flex-shrink: 3;
+    max-width:100%;
+    overflow-x:hidden;
     
 
 }
@@ -24,7 +26,7 @@ nav {
 .logo {
     display: flex;
     font-size: 2rem;
-    margin-left: 24px;
+    padding-left: 24px;
     align-items: center;
 }
 .logo img{
@@ -38,11 +40,11 @@ ul {
     flex-wrap: wrap;
     list-style: none;
     font-size: 1.5vw;
-    margin-right: 24px;
+    padding-right: 24px;
     align-items: center;
 }
 ul li{
-    margin-left:16px;
+    padding-left:16px;
 }
 ul a{
     color:rgba(0, 0, 0, 0.795);
@@ -67,6 +69,7 @@ ul a{
     }
     .mobile {
         display:contents;
+        width:100%;
     }
 }
 /*after header */
@@ -145,6 +148,8 @@ ul a{
         background-color: gray;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right:1rem;
     }
 }
 /* third nav with 3 pictures */
@@ -256,6 +261,56 @@ ul a{
 .linkt a {
     text-decoration: none;
 }
+.timobil{
+    display:none;
+}
+@media only screen and (max-width:540px){
+    
+    
+    .sixty {
+        display:none;
+    }
+
+    .forty{
+        width:100%;
+        display:block;
+        background-color: rgb(240, 240, 240);
+        margin-bottom:0;
+        
+    }
+    .everyone, .everyone1, .everyones {
+        display:block;
+        border:none;
+        background-color:inherit;
+    
+    }
+    .timage{
+        display:none;
+    }
+    .timobil{
+        display:block;
+        width:100%;
+        padding:1rem;
+    }
+    .bigt {
+        font-size: 5.1vw;
+        padding-left: 1rem;
+        text-align: left;
+    }
+    .mediumt{
+        font-size: 3.5vw;
+        padding-left: 1rem;
+    }
+    .linkt {
+        font-size: 3vw;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+        
+    }
+    .linkt a{
+        color:blue;
+    }
+}
 /* grey backrground and 3 columns */
 .fourth{
     display: flex;
@@ -277,7 +332,7 @@ ul a{
     display: flex;
     justify-content:space-between;
     justify-items: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 32px 72px;
     
 }
@@ -299,7 +354,8 @@ ul a{
 .row img{
     height: 100%;
     width: 100%;
-    border-radius: 5%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
 .row div{
     width: 92%;
@@ -313,7 +369,7 @@ ul a{
     background-color:white;
     padding-top:1rem; 
     margin-top:0;
-    font-size: 2.25vw;
+    font-size: 2vw;
     font-weight:bold;
     color:rgba(0, 0, 0, 0.664);
     padding-left:1rem;
@@ -324,11 +380,57 @@ ul a{
     font-size: 1.5vw;
     font-weight:100;
     color:rgba(0, 0, 0, 0.664);
-
+    text-align:left;
     padding-top:0.5rem;
     padding-bottom:0.5rem;
     padding-left: 1rem;
+    
 }
+.colmobile {
+    display:none;
+}
+@media only screen and (max-width:540px){
+    .fourth{
+        font-size: 5vw;
+        background-color: rgb(240, 240, 240);
+        display:flex;
+        flex-flow: column;
+        align-items: center;
+        align-content:space-between;
+        justify-items: center;
+       
+        
+
+    }
+    .columns{
+        display:none;
+    }
+    .colmobile{
+        display:flex;
+        flex-flow: column;
+        align-items: center;
+        align-content:space-around;
+        justify-items: center;
+        width:100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        
+        
+        
+    }
+    .colmobile h1{
+        margin-top:0.5rem;
+        background-color: lightgrey;
+        min-width: 100%;
+        padding-top:1rem;
+        padding-bottom: 1.5rem;
+        padding-left:1.5rem;
+        font-size: 5vw;
+    }
+
+}
+/*fifth part*/
 .fifth {
     display: flex;
     justify-items: center;
@@ -386,6 +488,20 @@ font-size: 1.3vw;
 color:rgba(0, 0, 0, 0.664);
 
 }
+@media only screen and (max-width:540px){
+    .vidbox h2, .vidbox p, .forty1{
+        display:none;
+    }
+    .vidbox {
+        width:100%;
+        padding:0;
+    }
+    .fifth h1 {
+        font-size: 7vw;
+    }
+
+}
+/*footing*/
 footer {
 padding-left: 1.5rem;
 padding-top: 1rem;
@@ -397,7 +513,14 @@ padding-bottom: 3rem;
 color:rgba(0, 0, 0, 0.795);
 font-size: 1.5vw;
 }
+@media only screen and (max-width:540px){
+    
+    footer{
+        font-size: 3vw;
+        
 
+    }
+}
 
 
 
